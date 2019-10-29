@@ -1,0 +1,16 @@
+{
+  "name": "desarrollo-web-moderno",
+  "version": "1.0.0",
+  "description": "Charla para alumnos de Desarrollo de Aplicaciones sobre Desarrollo Web Moderno",
+  "scripts": {
+    "start": "mdx-deck keynote.mdx",
+    "build": "mdx-deck build keynote.mdx && mv ./dist ./docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ulises Santana Suárez",
+  "license": "MIT",
+  "dependencies": {
+    "mdx-deck": "^2",
+    "rebass": "^4.0.6"
+  }
+}
